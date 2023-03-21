@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="E:\website\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<title>Alban</title>
+<body>
+    <section class="header">
+        <nav>
+            <a href="E:\website\html\home.html"><img src="\website\images\logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="E:\website\html\index.html">HOME</a></li>
+                    <li><a href="E:\website\html\about.html">ABOUT</a></li>
+                    <li><a href="E:\website\html\projects.html">PROJECTS</a></li>
+                    <li><a href="E:\website\html\contacts.html">CONTACTS</a></li>
+                </ul>    
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+<!------footer---->  
+
+<section class="footer">
+    <h1>Contact Us Now</h1>
+    <h2>+44 7460 816341</h2>
+    <h3>alban.seferasi@yahoo.com</h3>
+    <p>Thank you for considering our construction company. With our focus on quality, reliability, and customer satisfaction, <br>
+        we are confident in our ability to exceed your expectations. Contact us today to bring your construction project to life.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/constructionalbanltd" i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/albanconstructionltd/" i class="fa fa-instagram"></i></a>
+    </div>
+
+</section>
+
+<!------JavaScript for toggle menu---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>
